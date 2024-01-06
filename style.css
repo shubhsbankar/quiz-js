@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+.root{
+    --shadow : rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.quiz{
+    background-color: rgba(88, 116, 238, 0.63);
+    padding: 30px;
+}
+
+.heading{
+    margin: 10px auto 40px auto;
+    text-align: center;
+    color: #ffffff;
+}
+.heading .title{
+    font-size: 32px;
+}
+
+.heading .subtitle{
+    font-size: 16px;
+}
+
+.result{
+    text-align: center;
+    background-color: #ffffff;
+    margin: 20px auto;
+    max-width: 400px; 
+    min-width: 350px;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
+
+.hide{
+    display: none;
+
+}
+
+.reload button {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 0px 0px 5px 5px;
+    border: 0px;
+    background-color: rgb(127, 206, 116);
+    color: #ffffff;
+}
+.reload button:hover{
+    background-color: rgb(86, 199, 71);
+    cursor: pointer;
+}
+.score{
+    padding: 10px 20px;
+}
+
+.question{
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
+
+.option{
+    margin-left: 10px;
+}
+.submit{
+    text-align: center;
+}
+.submit input{
+    color: #ffffff;
+    background-color: rgb(127, 206, 116);
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: 0px;
+}
+
+.submit > :hover{
+    background-color: rgb(86, 199, 71);
+    cursor: pointer;  
+}
+
+.wrong{
+    background-color: rgb(245, 173, 173);
+}
+
+.correct{
+    background-color: rgb(181, 216, 165);
+}
+
+.quiz-form{
+    max-width: 1000px;
+    margin: auto;
+}
