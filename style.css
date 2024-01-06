@@ -62,7 +62,7 @@
     padding: 10px 20px;
 }
 
-.question{
+.question {
     background-color: #ffffff;
     padding: 10px 20px;
     margin: 20px 0px;
@@ -100,4 +100,46 @@
 .quiz-form{
     max-width: 1000px;
     margin: auto;
+}
+.show{
+    text-align: end;
+}
+.showans{
+    background: url("./images/eye-black.png") 8px 11px no-repeat;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px 40px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: grey;
+    font-family: "Poppins", sans-serif;
+}
+
+.showans:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.explanation{
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    box-shadow: var(--shadow);
+}
+
+.showanshide{
+    background: url("./images/eye-close-black.png") 8px 11px no-repeat;
+    font-size: 16px;
+    padding: 10px 40px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: grey;
+    width: 200px;
+    font-family: "Poppins", sans-serif;
+}
+
+.showanshide:hover{
+    background-color: #ffffff;
+    cursor: pointer;
 }
