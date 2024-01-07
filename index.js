@@ -11,11 +11,11 @@ console.log(explanation);
 const correctAnswers = ['B','D','C','B','A'];
 // ButtonToExplanation map
 let butToExp = {
-    "show1": 0,
-    "show2": 1,
-    "show3": 2,
-    "show4": 3,
-    "show5": 4
+    show1: 0,
+    show2: 1,
+    show3: 2,
+    show4: 3,
+    show5: 4
 };
 
 // Added event listener on the form.
